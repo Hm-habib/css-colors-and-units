@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    /* background: url("../src/pexels-instawally-176851.jpg"); */
+    background-repeat: no-repeat;
+    background-color: lightslategray;
+}
+
+
+
+#heading {
+    text-align: center;
+    margin: 70px 0px auto;
+    font-size: 4em;
+    /* position: sticky; */
+    /* top: 0px; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #900c3f65;
+
+
+
+
+}
+
+.navitem {
+    background: url("../src/pexels-instawally-176851.jpg");
+    width: 50%;
+    height: 100px;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px 10px;
+
+}
+
+.item {
+    background-color: white;
+    color: steelblue;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    margin: 5px;
+    font-size: 1rem;
+    display: inline;
+    text-decoration: none;
+    align-content: center;
+}
+
+#item5>img {
+    width: 80%;
+    height: 800px;
+    margin: 50px auto;
+    /* align-items: end; */
+    display: flex;
+
+
+
+}
+
+#item5>img ::after {
+    content: ".item";
+    clear: both;
+    display: table;
+}
+
+.image2 {
+    height: 200px;
+    width: 300px;
+    /* float: right; */
+    /* margin: 100px 0px auto; */
+    text-align: center;
+
+
+}
+
+
+.image6 {
+    background: radial-gradient(rgba(255, 0, 0, 0.226), rgba(255, 255, 0, 0.404), rgba(0, 128, 0, 0.288)), url("../src/pexels-instawally-176851.jpg");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 5px;
+    align-content: flex-end;
+    padding: 20px;
+}
+
+.textcover {
+    color: white;
+    margin: 10px 50px;
+    padding: 20px 15px;
+    text-align: justify;
+    display: block;
+    height: 200px;
+    width: 600px;
+    align-content: center;
+    /* border: 1px solid; */
+
+
+}
+
+.geeks {
+    background: linear-gradient(50deg, rgba(108, 155, 135, 0.767), rgba(163, 197, 99, 0.486)), url("../src/pexels-pixabay-268533.jpg");
+
+    width: 100%;
+    height: 280px;
+    /* text-align: right; */
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.geeks>p {
+    margin: 10px;
+    padding: 50px;
+    height: 300px;
+    width: 600px;
+    align-content: flex-end;
+    line-height: 1.5rem;
+    font-size: 20px;
+}
+
+.textimg {
+    border: 2px solid;
+    height: 500px;
+    width: 330px;
+    background-color: darkslateblue;
+    color: white;
+    padding: 20px 20px;
+    margin: 30px 30px;
+    /* align-content: center; */
+    /* float: right; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 30px;
+
+}
